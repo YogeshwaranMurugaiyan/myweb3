@@ -1,4 +1,7 @@
-node {
+#!groovy
+
+node('master') {
+
 step ('cleanup') {
 cleanWs()
 }
